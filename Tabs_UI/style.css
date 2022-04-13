@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.tab {  
+    width: 701px;
+    height: 62px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.tab__item {
+    width: 25%;
+    height: 100%;
+    font-size: 20px;
+    color: #c23564;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease 0.5s;
+    position: relative;
+}
+
+.tab__item:hover {
+    background-color: #fcf4f7;
+    cursor: pointer;
+}
+
+.line {
+    width: 25%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: #c23564;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+}
